@@ -1,6 +1,6 @@
 # ====================================
 # Mikrotik 外国网站直连清单 (auto-generated) - IPv4 & IPv6
-# 生成时间: 2025-10-20 15:28:57
+# 生成时间: 2025-10-20 15:30:43
 # 注意：此列表仅包含运行脚本时解析到的地址，可能不完整或很快失效。
 # IPv4 使用 list=foreign_direct，IPv6 使用 list=foreign_direct_v6
 # ====================================
@@ -9,13 +9,13 @@
 
 /ipv6 firewall address-list
 add list=foreign_direct address=17.253.144.10 comment="apple.com"
-add list=foreign_direct address=23.202.92.31 comment="itunes.apple.com"
+add list=foreign_direct address=23.203.112.23 comment="itunes.apple.com"
 add list=foreign_direct address=17.253.142.4 comment="mzstatic.com"
 add list=foreign_direct address=17.253.144.10 comment="icloud.com"
 add list=foreign_direct address=13.107.213.51 comment="microsoft.com"
 add list=foreign_direct address=13.107.246.51 comment="microsoft.com"
-add list=foreign_direct address=23.40.99.10 comment="officecdn.microsoft.com"
-add list=foreign_direct address=23.40.99.8 comment="officecdn.microsoft.com"
+add list=foreign_direct address=199.232.210.172 comment="officecdn.microsoft.com"
+add list=foreign_direct address=199.232.214.172 comment="officecdn.microsoft.com"
 add list=foreign_direct address=150.171.73.16 comment="visualstudio.com"
 add list=foreign_direct address=150.171.74.16 comment="visualstudio.com"
 add list=foreign_direct address=23.213.53.135 comment="adobe.com"
@@ -40,8 +40,8 @@ add list=foreign_direct address=151.101.65.6 comment="fastly.net"
 add list=foreign_direct address=173.194.206.120 comment="gstatic.com"
 add list=foreign_direct address=173.194.206.94 comment="gstatic.com"
 add list=foreign_direct address=64.233.181.94 comment="fonts.googleapis.cn"
-add list=foreign_direct address=74.125.69.95 comment="fonts.googleapis.com"
-add list=foreign_direct address=142.251.183.94 comment="fonts.gstatic.com"
+add list=foreign_direct address=209.85.200.95 comment="fonts.googleapis.com"
+add list=foreign_direct address=142.250.152.94 comment="fonts.gstatic.com"
 add list=foreign_direct address=184.25.119.147 comment="cdn.cloudflare.steamstatic.com"
 add list=foreign_direct address=184.25.119.164 comment="cdn.cloudflare.steamstatic.com"
 add list=foreign_direct address=115.238.23.240 comment="alicdn.com"
@@ -59,8 +59,8 @@ add list=foreign_direct address=36.248.64.77 comment="qcloudcdn.com"
 add list=foreign_direct address=43.141.131.241 comment="qcloudcdn.com"
 add list=foreign_direct address=59.80.47.30 comment="qcloudcdn.com"
 add list=foreign_direct address=52.20.84.62 comment="hwcdn.net"
-add list=foreign_direct address=173.194.64.120 comment="maps.gstatic.com"
-add list=foreign_direct address=173.194.64.94 comment="maps.gstatic.com"
+add list=foreign_direct address=74.125.201.120 comment="maps.gstatic.com"
+add list=foreign_direct address=74.125.201.94 comment="maps.gstatic.com"
 add list=foreign_direct address=138.1.33.162 comment="oracle.com"
 add list=foreign_direct address=184.30.98.253 comment="ibm.com"
 add list=foreign_direct address=47.96.233.62 comment="npmmirror.com"
@@ -101,15 +101,15 @@ add list=foreign_direct_v6 address=2a04:4e42::262 comment="fastly.net"
 add list=foreign_direct_v6 address=2607:f8b0:4001:c62::5e comment="gstatic.com"
 add list=foreign_direct_v6 address=2607:f8b0:4001:c62::78 comment="gstatic.com"
 add list=foreign_direct_v6 address=2607:f8b0:4001:c09::5e comment="fonts.googleapis.cn"
-add list=foreign_direct_v6 address=2607:f8b0:4001:c00::5f comment="fonts.googleapis.com"
+add list=foreign_direct_v6 address=2607:f8b0:4001:c1d::5f comment="fonts.googleapis.com"
 add list=foreign_direct_v6 address=2607:f8b0:4001:c0f::5e comment="fonts.gstatic.com"
 add list=foreign_direct_v6 address=2600:1407:3c00:1868::17dc:9017 comment="cdn.cloudflare.steamstatic.com"
 add list=foreign_direct_v6 address=2600:1407:3c00:1868::17dc:901f comment="cdn.cloudflare.steamstatic.com"
 # 无法解析 IPv6: alicdn.com
 # 无法解析 IPv6: qcloudcdn.com
 # 无法解析 IPv6: hwcdn.net
-add list=foreign_direct_v6 address=2607:f8b0:4001:c16::5e comment="maps.gstatic.com"
-add list=foreign_direct_v6 address=2607:f8b0:4001:c16::78 comment="maps.gstatic.com"
+add list=foreign_direct_v6 address=2607:f8b0:4001:c56::5e comment="maps.gstatic.com"
+add list=foreign_direct_v6 address=2607:f8b0:4001:c56::78 comment="maps.gstatic.com"
 # 无法解析 IPv6: oracle.com
 add list=foreign_direct_v6 address=2600:1405:7400:c82::3831 comment="ibm.com"
 add list=foreign_direct_v6 address=2600:1405:7400:c8c::3831 comment="ibm.com"
