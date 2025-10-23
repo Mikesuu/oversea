@@ -1,5 +1,6 @@
 /ip firewall address-list
-# Foreign Sites List Update Script - Generated on 2025-10-23 02:12:40 (CST)
+# Foreign Sites List Update Script - Generated on 2025-10-23 14:41:03 (CST)
+remove [find list="foreign-sites"] # Clear old list
 add list="foreign-sites" address=000webhost.com comment="Foreign Domain - 000webhost.com"
 add list="foreign-sites" address=030buy.com comment="Foreign Domain - 030buy.com"
 add list="foreign-sites" address=0rz.tw comment="Foreign Domain - 0rz.tw"
